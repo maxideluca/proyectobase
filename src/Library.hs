@@ -1,5 +1,6 @@
-module Library where
-import PdePreludat
 
-doble :: Number -> Number
+doble :: Int -> Int
 doble numero = numero + numero
+
+siguiente :: Int->Int 
+siguiente n = n+1 
